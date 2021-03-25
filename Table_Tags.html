@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="" crossorigin="ananymous">
+</head>
+<body>
+    <main>
+        <p>This is my main code</p>
+        <hr> <!-- Horizontal Line drawn on the page-->
+        <article>
+            <header>MULTIMEDIA SECTION</header>
+            <p>Lecture Video</p>
+            <video src="Video\Lecture.mp4" width = "400" controls autoplay>
+                Your browser does not support the <code>video</code> element
+            </video>
+            <p>Audio</p>
+            <Audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/sounddogs/soundtrack.mp3" controls></Audio>
+            <Audio src="https://www.soundsnap.com/the_air_show_jet_by_09_wav" controls></Audio>
+            <p>Image</p>
+            <figure>
+                <img src="Images/Focus.jpg" alt="Tinku Focus" width = "25%">
+                <figcaption>Relative Image Size of Tinku focuing on ball</figcaption>
+            </figure>
+        </article>
+        <hr>
+        <article>
+            <p>TABLE SECTION</p>
+            <table border="1"> <!-- border is to put the border on the table. Not a very good practice-->
+                <caption>This is an example of table</caption>
+                <!-- tr is for table row, td is for column colspan is for cell merging-->
+                <tr><th colspan="3">This is a main table with few rows and columns</th></tr>
+                <tr><td>One</td><td>Two</td><td>Three</td></tr>
+                <tr><td>Four</td><td>Five</td><td>Six</td></tr>
+                <tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+                <tr><th colspan="3">This is the footer</th></tr>
+            </table>
+            <hr>
+            <button>This is a Button</button>
+            <meter min="0" max="100" value="76">Pecentage</meter>
+            <iframe title="Title of Frame" width="400" height="400" src="Images/Focus.jpg">
+            </iframe>
+        </article>
+        <hr>
+    </main>
+</body>
+<footer>
+    <a href="http://www.facebook.com" target="_blank"> <i class="fab fa-facebook fa-5x"></i> </a>
+    <a href="http://www.linkedin.com" target="_blank"> <i class="fab fa-linkedin fa-5x"></i> </a>
+    <p>This is an interesting footer</p>
+</footer>
+</html>
